@@ -1,0 +1,40 @@
+.container {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.timer {
+    width: 500px;
+    display: flex;
+
+}
+
+.time-box {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+    margin: 20px
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons>button {
+    margin: 10px;
+    height: 50px;
+
+}
